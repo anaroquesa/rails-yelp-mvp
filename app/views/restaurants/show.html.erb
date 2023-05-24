@@ -1,0 +1,7 @@
+<%= render @restaurant %>
+
+
+<%= link_to "REVIEWS", restaurant_reviews_path(@restaurant) %>
+<%= link_to "ADD REVIEW", new_restaurant_review_path(@restaurant) %>
+<%= link_to "EDIT RESTAURANT", edit_restaurant_path(@restaurant) %> |
+<%= link_to "GO BACK", restaurants_path %>
